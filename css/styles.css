@@ -212,6 +212,22 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--primery-title-color);
+
+  padding-top: 94px;
+  padding-bottom: 50px;
+}
+
+.doing-section .list {
+  display: flex;
+  align-items: center;
+}
+
+.doing-list:not(:last-child) {
+  margin-right: 30px;
+}
+
+.doing-list {
+  margin-bottom: 94px;
 }
 /*=====END WHAT ARE WE DOING=====*/
 
@@ -223,6 +239,9 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--primery-title-color);
+
+  padding-top: 94px;
+  padding-bottom: 50px;
 }
 
 .team-subtitle {
@@ -231,6 +250,8 @@ img {
   line-height: 1.188;
   letter-spacing: 0.03em;
   color: var(--primery-title-color);
+
+  padding: 30px 0 10px;
 }
 
 .team-position {
@@ -239,10 +260,30 @@ img {
   line-height: 1.188;
   letter-spacing: 0.03em;
   color: var(--primery-description-color);
+
+  padding-bottom: 30px;
 }
 
-.team-fon {
+.our-team .list {
+  display: flex;
+}
+.our-team {
   background-color: #f5f4fa;
+}
+
+.tem-list:not(:last-child) {
+  margin-right: 30px;
+}
+
+.tem-list {
+  margin-bottom: 94px;
+
+  width: 270px;
+  height: 368px;
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 /*=====END OUR TEAM=====*/
 
@@ -277,7 +318,7 @@ img {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-fon {
+.footer {
   background-color: #2f303a;
 }
 /*=====END FOOTER=====*/
