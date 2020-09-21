@@ -57,7 +57,7 @@ img {
   display: flex;
 }
 
-.logo {
+.header .logo {
   font-family: var(--secondary-font);
   font-style: normal;
   font-weight: 700;
@@ -119,26 +119,21 @@ img {
 /*=====END HEADER=====*/
 
 /*=====HERO=====*/
-/*.hero .container {
-  display: flex;
-  align-items: center;
-}*/
 .hero-section {
-  width: 1600px;
-  height: 600px;
+  text-align: center;
   background-color: #2f303a;
+  padding: 200px 0;
 }
 
 .hero-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.364;
-  text-align/*ПРИБРАТИ?*/: center;
+  /* text-alignПРИБРАТИ?: center; */
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
 
-  padding-top: 200px;
   padding-bottom: 30px;
 }
 
@@ -157,8 +152,6 @@ img {
   background: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-
-  margin-bottom: 200px;
 }
 
 /*=====END HERO=====*/
@@ -251,7 +244,8 @@ img {
   letter-spacing: 0.03em;
   color: var(--primery-title-color);
 
-  padding: 30px 0 10px;
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
 
 .team-position {
@@ -271,11 +265,12 @@ img {
   background-color: #f5f4fa;
 }
 
-.tem-list:not(:last-child) {
+.team-list:not(:last-child) {
   margin-right: 30px;
 }
 
-.tem-list {
+.team-list {
+  text-align: center;
   margin-bottom: 94px;
 
   width: 270px;
@@ -320,6 +315,17 @@ img {
 
 .footer {
   background-color: #2f303a;
+
+  padding: 60px 0;
+}
+
+.footer .logo-footer {
+  display: block;
+  padding-bottom: 20px;
+}
+
+.footer .list li:not(:last-child) {
+  margin-bottom: 9px;
 }
 /*=====END FOOTER=====*/
 /*=====END STUDIO=====*/
