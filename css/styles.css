@@ -42,8 +42,8 @@ img {
 /*=====HEADER=====*/
 
 .header {
-  padding: 32px 0;
-  border: 1px solid #ececec;
+  /* padding: 32px 0; */
+  border-bottom: 1px solid #ececec;
 }
 
 .header .container {
@@ -69,6 +69,8 @@ img {
   letter-spacing: 0.03em;
   color: #000000;
 
+  padding-top: 24px;
+  padding-bottom: 25px;
   margin-right: 93px;
 }
 
@@ -88,6 +90,9 @@ img {
   line-height: 1.143;
   letter-spacing: 0.02em;
   color: var(--primery-title-color);
+
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .active {
@@ -102,6 +107,9 @@ img {
   line-height: 1.143;
   letter-spacing: 0.02em;
   color: var(--primery-description-color);
+
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .header .address {
@@ -238,7 +246,7 @@ img {
   letter-spacing: 0.03em;
   color: var(--primery-title-color);
 
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .team-subtitle {
@@ -248,8 +256,7 @@ img {
   letter-spacing: 0.03em;
   color: var(--primery-title-color);
 
-  /* padding-top: 30px;
-  padding-bottom: 10px; */
+  margin-bottom: 10px;
 }
 
 .team-position {
@@ -258,8 +265,6 @@ img {
   line-height: 1.188;
   letter-spacing: 0.03em;
   color: var(--primery-description-color);
-
-  padding-top: 10px;
 }
 
 .our-team .list {
